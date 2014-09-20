@@ -1,0 +1,115 @@
+{
+"stop":
+  {"id":7400110,
+  "name":"Varberg Station",
+  "conty_id":68,
+  "monicipality_id":8,
+  "contry_id":74,
+  "zipcode":43291,
+  "location":
+    {
+    "rt90":
+      {
+	"x":456456,
+	"y":456544
+      },
+    "wgs84":
+	{"lon":70.0,
+	"lat":70.0
+      }
+    },
+  "transportlist":
+    [
+      {"type":"BLT", "shorttype":"B"},
+      {"type":"JLT", "shorttype":"J"}
+    ],
+  "producerlist":
+    [
+      {"producerid": 74},
+      {"producerid": 268}
+    ],
+  "otherid":
+    {
+    "sl":
+      {
+	"name":"Varberg S",
+	"siteid":8976,
+	"stoparea":
+	  [
+	    {
+	      "stopareaid": 787878,
+	      "stoppoint":
+		[
+		  {
+		    "stoppointid":876478,
+		    "name":"Vårberg",
+		    "zone":"AB",
+		    "position":
+		      {
+			"wgs84":
+			{
+			"lon":80.234,
+			"lat":70.44
+			}
+		      }
+		  }
+		]
+	     }
+	  ]
+      },
+    "sj":{"name":"Varberg"},
+    "skanetrafiken":
+      {
+	"id":"880", 
+	"name":"Varberg"
+      },
+    "hallandstrafiken":
+      {
+	"id":"880", 
+	"name":"Varberg"
+      },
+    "vasttrafik":
+      {
+	"id":9021014086500000,
+	"position":
+	 {
+	    "wgs84":
+	      {
+		"lon":80.234,
+		"lat":70.44
+	      }
+	 },
+	 "stoppoints":
+	  [
+	    {
+	      "id":90342342340002,
+	      "name":"Lindome B",
+	      "position":
+	      {
+		"wgs84":
+		{
+		"lon":80.234,
+		"lat":70.44
+		}
+	      }
+	    }
+	  ]
+      }
+    },
+  "images":
+    [
+      {"url":"http://idg.se/img.gif"},
+      {"url":"http://idg.se/img.img"}
+    ],
+  "maps":
+     [
+      {"url":"http://idg.se/img.pdf"},
+      {"url":"http://idg.se/img.png"}
+    ],
+  "web":
+    [
+      {"url":"http://vasttrafike/station44"},
+      {"url":"http://skanteteafine/station56"}
+    ]
+  }
+}
