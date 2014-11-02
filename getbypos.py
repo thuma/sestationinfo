@@ -4,6 +4,11 @@ import tornado.web
 
 ins = open("../Transit-Stop-Identifier-Conversions-Sweden/stops.txt", "r" )
 ids = []
+
+# 40030 km / 4 = 90/10008 = 0,008992805755396
+# 111,2 km / lat
+# 10 = 0 m
+
 for line in ins:
     parts = line.strip().split(',')
     try:
